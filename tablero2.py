@@ -10,7 +10,7 @@ from streamlit_echarts import st_echarts
 #id = 1Gu65mnJ_lxE0BdbkL1nTq5qaFJ1dJ9tq
 @st.experimental_memo
 def download_data():
-     url = "https://drive.google.com/uc?id=1Gu65mnJ_lxE0BdbkL1nTq5qaFJ1dJ9tq"
+     url = "https://docs.google.com/spreadsheets/d/13iNig4VIvt5Gm0znUt2eq3_YnGCgCQHM/edit#gid=46563781"
      output = 'data.csv'
      gdown.download(url,output,quiet=False)
 download_data()
@@ -22,7 +22,7 @@ st.title("      CASOS POSITIVOS: COVID-19", anchor = None )
 from PIL import Image
 image = Image.open('covid.jpg')
 st.subheader('Equipo 04:')
-st.markdown("*Sandy Castillo Mallqui, Estefania Huaman Tovar, Maria Rivera Chiclla, Jackeline Roque Maceda y Heydi Surco Mamani*")
+st.markdown("*S")
 
 #####CONTEXTO
 st.subheader("Contexto:")
